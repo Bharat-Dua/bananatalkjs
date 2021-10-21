@@ -1,0 +1,195 @@
+/* color palette */
+:root {
+    --darkreader-text--primary-color: #7d58d4;
+    --darkreader-bg--off-white: #252728;
+    --darkreader-text--off-white: #c3c1be;
+    --darkreader-text--dark-gray: #aeaaa4;
+    --darkreader-bg--black-color: #171818;
+    --darkreader-bg--btn-color: #602396;
+    --darkreader-text--btn-color: #8541c1;
+    --darkreader-border--btn-color: #562187;
+  }
+  :root {
+    --primary-color: #8b5cf6;
+    --off-white: #f3f4f6;
+    --dark-gray: #303338;
+    --black-color: #111;
+    --btn-color: #892cdc;
+  }
+  
+  :root {
+    --darkreader-neutral-background: #1c1e1f;
+    --darkreader-neutral-text: #bcb8b4;
+    --darkreader-selection-background: #0d4b96;
+    --darkreader-selection-text: #c9c7c5;
+  }
+  /* reset */
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  /* body */
+  body {
+    margin: 0px auto;
+  }
+  /* navbar section */
+  .navbar-heading {
+    padding: 1rem;
+  }
+  .navbar-heading a {
+    color: #bcb8b4;
+    text-decoration: none;
+  }
+  .navbar,
+  .footer {
+    background-color: var(--darkreader-bg--black-color);
+  }
+  .nav-menu-list {
+    text-align: right;
+  }
+  .nav-menu-list .nav-items a {
+    color: var(--primary-color);
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0px 1.3rem;
+    font-size: 1.3rem;
+  }
+  .nav-menu-list .nav-items a:hover {
+    color: var(--off-white);
+  }
+  .nav-menu-list .nav-items {
+    list-style-type: none;
+    display: inline-block;
+    padding: 1.5rem;
+  }
+  /* image-section */
+  
+  .img {
+    max-width: 80%;
+    width: 550px;
+    display: block;
+    margin: auto;
+    padding: 3rem 0;
+  }
+  
+  /* technology section */
+  .technologies {
+    text-align: center;
+    background-color: var(--darkreader-bg--black-color);
+    padding-bottom: 3rem;
+  }
+  .tech-head {
+    padding: 3rem 0 1.3rem 1rem;
+  }
+  /* projects section */
+  /* only used  utility classes */
+  
+  /* blog section */
+  .blog {
+    background-color: var(--darkreader-bg--black-color);
+    text-align: center;
+  }
+  .text-center {
+    text-align: center;
+  }
+  
+  /* utility classes */
+  .container {
+    padding: 0px 1.3rem;
+  }
+  .section {
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  .container-center {
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  .ow {
+    background-color: var(--dark-gray);
+  }
+  h2 {
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: 550;
+  }
+  .high-text {
+    color: #892cdc;
+  }
+  p {
+    font-size: 1.2rem;
+    padding: 6px;
+    line-height: 1.5;
+  }
+  .primary {
+    border-color: var(--darkreader-border--btn-color);
+    background-color: var(--darkreader-bg--btn-color);
+    max-width: 140px;
+    padding: 0.6rem 1.2rem;
+    background-color: var(--btn-color);
+    color: var(--off-white);
+    margin: 1rem auto;
+    border-radius: 5rem;
+    text-decoration: none;
+  }
+  .primary a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  .primary:hover {
+    background-color: var(--darkreader-bg--black-color);
+    color: #f3f4f6;
+    box-shadow: 5px 5px var(--dark-gray);
+  }
+  .secondary-button {
+    max-width: 140px;
+    padding: 0.6rem 1.2rem;
+    background-color: var(--black-color);
+    color: var(--darkreader-text--off-white);
+    margin: 1rem auto;
+    border-radius: 5rem;
+    border-color: var(--darkreader-text--primary-color);
+    text-decoration: none;
+  }
+  .secondary-button a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  .footer li:hover {
+    background-color: #303338;
+    border-radius: 5rem;
+    padding: 1rem;
+  }
+  .footer a:hover {
+    color: #1c1e1f;
+  }
+  /* add project on project.html page */
+  .list-non-bullet{
+    list-style: none;
+  }
+  .showcase-list{
+      margin-top: 2rem;
+      padding: 2rem;
+      border-radius: 1rem;
+      text-align: center;
+  }
+  .list-non-bullet h1{
+    font-size: 2rem;
+  }
+  .showcase-list p{
+    padding-bottom: 1rem;
+  }
+  .blog-head {
+    padding-bottom: 3rem;
+  }
+  .blog-heading{
+    padding-bottom: 8rem;
+    text-align: center;
+    padding-top: 3rem;
+  }
